@@ -126,5 +126,5 @@ namespace SerializationExample1
 }
 ```
 
-![](//C#.png)
+![](//C#.png/150x100)
  
