@@ -130,7 +130,7 @@ namespace SerializationExample1
 }
 ```
 
-![Alt text](/C#.png "Можно задать title")
+![Alt text](C#.png "Можно задать title")
 ![Alt text](http://ozon-st.cdn.ngenix.net/multimedia/1014368598.jpg/200x150 "Можно задать title")
 
 
