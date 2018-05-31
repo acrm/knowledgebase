@@ -18,7 +18,7 @@ git config --global
 git config --global user.name
 git config --global user.email
 
-git init
+git init для создания репозитория
 Для редактирования настроек, хранящихся в папке .git :
 git config user.name
 git config user.email 

@@ -126,5 +126,5 @@ namespace SerializationExample1
 }
 ```
 
-![](//knowledgebase/C#.png/150x100)
+![](//https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F51jiNJmvybL._SX331_BO1%2C204%2C203%2C200_.jpg/150x100)
  
