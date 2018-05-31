@@ -128,7 +128,7 @@ namespace SerializationExample1
 
 ![](//https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F51jiNJmvybL._SX331_BO1%2C204%2C203%2C200_.jpg/150x100)
  
-![Alt text](http://ozon-st.cdn.ngenix.net/multimedia/1014368598.jpg "Можно задать title")
+![Alt text](http://ozon-st.cdn.ngenix.net/multimedia/1014368598.jpg/200x150 "Можно задать title")
 
-![Text](//C#.png "C#")
+![Text](//с#.png "C#")
 
