@@ -47,14 +47,39 @@ git pull стоит делать, если есть подозрение, что
 
 #### git squash - слияние комитов, делается если есть несколько ненужных комитов.
 
+
+
 [HTML Academy](https://htmlacademy.ru/blog/27-how-to-squash-commits-and-why-it-is-needed "Как склеить коммиты и зачем это нужно ").
 
+`git rebase -i HEAD~3`
+
+Запуск этой команды выдаст вам в текстовом редакторе список коммитов, который будет выглядеть следующим образом:
+```
+pick f7f3f6d changed my name a bit
+pick 310154e updated README formatting and added blame
+pick a5f4a0d added cat-file
+
+# Rebase 710f0f8..a5f4a0d onto 710f0f8
+#
+# Commands:
+#  p, pick = use commit
+#  e, edit = use commit, but stop for amending
+#  s, squash = use commit, but meld into previous commit
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+# However, if you remove everything, the rebase will be aborted.
+#
+```
+`git log --pretty=format:"%h %s" HEAD~3..HEAD`
+
+[Инструменты Git - Перезапись истории](https://git-scm.com/book/ru/v1/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-Git-%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8)
 ## Логин и акаунт
 
 Насчёт логина/пароля - вот это должно помочь: 
 [Насчёт логина/пароля](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage "вот это должно помочь:")
 
-## 
-
+## Просмотр файлов
+`git show {filepath}` чтобы посмотреть изменения в конкретном файле,
+`git show HEAD~1:{filepath}` если нужно посмотреть целиком файл предыдущей версии
 ## 
 
